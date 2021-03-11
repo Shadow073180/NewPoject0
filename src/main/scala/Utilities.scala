@@ -24,7 +24,6 @@ object Utilities {
       if (fields.length == 2) {
         val apiInfoLine = (fields(0),fields(1))
         apiInfo += apiInfoLine
-        println(apiInfo)
       }
     }
     apiInfo

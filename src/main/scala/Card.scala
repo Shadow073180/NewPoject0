@@ -1,3 +1,8 @@
 package com.revature.davidmasterson
 
-case class Card(attack: Int, artist: String, name: String, manaCost: Int, setId: Int, health: Int, picture: String)
+
+object Card {
+    
+    case class Card(cardId: Int, name: String, artistName: String, cardSetId: Int, text: String, image: String, flavorText: String, health: Int, manaCost: Int, attack: Int)
+
+}
